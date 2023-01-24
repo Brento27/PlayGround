@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Dancing School</title>
+    <style>
+      /* Use pink and black colors */
+      body {
+        color: black;
+        background-color: pink;
+      }
+      a {
+        color: black;
+      }
+      /* Style the carousel */
+      .carousel {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        /* Add a horizontal scrollbar if needed */
+      }
+      .carousel-item {
+        flex: 0 0 auto;
+        /* Shrink to fit the image */
+      }
+      .carousel-item img {
+        width: 100%;
+        /* Stretch the image to fill the carousel */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Our Dancing School</h1>
+    <p>
+      At our dancing school, we offer a wide range of dance classes for people
+      of all ages and abilities. Whether you are a beginner or an experienced
+      dancer, we have a class that is right for you.
+    </p>
+    <h2>Our Classes</h2>
+    <ul>
+      <li>Ballet</li>
+      <li>Jazz</li>
+      <li>Tap</li>
+      <li>Hip Hop</li>
+      <li>Contemporary</li>
+    </ul>
+    <p>
+      For more information about our classes, please <a href="#">contact us</a>.
+    </p>
+    <!-- Add the carousel -->
+    <div class="carousel">
+      <div class="carousel-item">
+        <img src="dance1.jpg" alt="People dancing" />
+      </div>
+      <div class="carousel-item">
+        <img src="dance2.jpg" alt="People dancing" />
+      </div>
+      <div class="carousel-item">
+        <img src="dance3.jpg" alt="People dancing" />
+      </div>
+    </div>
+    <footer>
+      <p>Contact Us:</p>
+      <p>Email: info@dancingschool.com</p>
+      <p>Phone: 555-555-1212</p>
+    </footer>
+  </body>
+</html>
